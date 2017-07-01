@@ -1,0 +1,21 @@
+{
+  "name": "setup_babel",
+  "version": "1.0.0",
+  "description": "setup_babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  },
+  "babel": {
+    "presets": ["env"]
+  }
+}
